@@ -33,7 +33,7 @@ public class BookManager extends AbstractMongoDAO {
 		
 		e2.setAuthor(bookReq.getAuthor());
 		e2.setTitle(bookReq.getTitle());
-		e2.setShelf(bookReq.getShelf());
+		e2.setShelf(bookReq.getShelf()); 
 		e2.setThumbnail(bookReq.getThumbnail());
 		
 		if(e2.getAuthor().isEmpty()) {
