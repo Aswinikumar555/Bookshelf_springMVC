@@ -1,0 +1,6 @@
+mvn clean install
+cp target/testapp.war ~/Downloads/apache-tomcat-8.5.37/webapps/
+Downloads/apache-tomcat-8.5.37$ ./bin/catalina.sh start
+Downloads/apache-tomcat-8.5.37$ tail -f logs/catalina.out
+
+curl -H "Content-Type: application/json" -d '{"title":"ascds dssd","author":"asdsddffr","image":"imagl"}' -X POST "http://localhost:8080/testapp/test/addBook"
