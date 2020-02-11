@@ -1,3 +1,11 @@
+tomcat
+cd bin
+./catalina.sh start
+
+cd logs
+tail -f catalina.out
+
+
 mvn clean install
 cp target/testapp.war ~/Downloads/apache-tomcat-8.5.37/webapps/
 Downloads/apache-tomcat-8.5.37$ ./bin/catalina.sh start
