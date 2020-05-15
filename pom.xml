@@ -12,7 +12,7 @@
         <filter.name>LOCAL</filter.name>
         <jersey.version>1.9</jersey.version>
         <base.directory>${basedir}</base.directory>		
-        <jackson.version>2.6.2</jackson.version>
+        <jackson.version>2.11.0</jackson.version>
         <spring.version>4.2.1.RELEASE</spring.version>
         <hibernate.version>5.1.0.Final</hibernate.version>
     </properties>
