@@ -2,6 +2,10 @@ tomcat
 cd bin
 ./catalina.sh start
 
+if not started, do below commands
+ls -al *.sh
+chmod +x *.sh
+
 cd logs
 tail -f catalina.out
 
